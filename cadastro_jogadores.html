@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro de Jogadores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/emblema.png" alt="logo" class="emblema">
+        <h1> 📝 Cadastro de Jogadores</h1>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="cadastro_jogadores.html">Gerenciar Jogadores</a>
+            <a href="plantel.html">Gerenciar Posições</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form>
+            <h2>Novo Jogador</h2>
+
+            <label>Nome</label>
+            <input type="text" placeholder="Ex: nome do Jogador">
+
+            <label>Altura</label>
+            <input type="text" placeholder="Ex: 1.82">
+
+            <label>Posição</label>
+
+            <select>
+                <option>Goleiro</option>
+                <option>Zagueiro</option>
+                <option>Lateral Direito</option>
+                <option>Lateral Esquerdo</option>
+                <option>Volante</option>
+                <option>Meio-Campo</option>
+                <option>Ponta Direita</option>
+                <option>Ponta Esquerda</option>
+                <option>Atacante</option>
+            </select>
+
+            <label>Campeonato</label>
+
+            <select>
+                <option>Nacional</option>
+                <option>Regional</option>
+                <option>Municipal</option>
+                <option>Amador Varzeano</option>
+            </select>
+
+            <label>Tempo de Contrato</label>
+            <input type="text" placeholder="Ex: Dez/2026">
+            <button type="submit">Cadastrar Jogador</button>
+        </form>
+    </div>
+</body>
+</html>
