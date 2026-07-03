@@ -42,19 +42,55 @@
                 <option>Atacante</option>
             </select>
 
-            <label>Campeonato</label>
+            <div class="grupo-campos">
 
-            <select>
-                <option>Nacional</option>
-                <option>Regional</option>
-                <option>Municipal</option>
-                <option>Amador Varzeano</option>
-            </select>
+    <!-- Campeonato Varzeano -->
+    <div class="campo">
+        <label for="campeonato">🏆 Campeonato Varzeano</label>
+        <select id="campeonato" name="campeonato">
+            <option value="">Selecione a divisão</option>
+            <option value="serie_a">Série A</option>
+            <option value="serie_b">Série B</option>
+        </select>
+    </div>
+
+    <!-- Amistosos -->
+    <div class="campo">
+        <label for="amistoso">🤝 Amistosos</label>
+        <select id="amistoso" name="amistoso">
+            <option value="">Selecione</option>
+            <option value="sim">Participará de amistosos</option>
+            <option value="nao">Não participará</option>
+        </select>
+    </div>
+
+    <!-- Torneios Preparatórios -->
+    <div class="campo">
+        <label for="torneio">🏅 Torneios Preparatórios</label>
+        <select id="torneio" name="torneio">
+            <option value="">Selecione</option>
+            <option value="pre_temporada">Pré-temporada</option>
+            <option value="torneio_verao">Torneio de Verão</option>
+            <option value="torneio_inverno">Torneio de Inverno</option>
+            <option value="copa_preparatoria">Copa Preparatória</option>
+            <option value="nao">Não participará</option>
+        </select>
+    </div>
+
+</div>
+
+</div>
 
             <label>Tempo de Contrato</label>
             <input type="text" placeholder="Ex: Dez/2026">
             <button type="submit">Cadastrar Jogador</button>
         </form>
     </div>
+
+    <footer>
+        <img src="imagens/emblema.png" alt="logo" class="logo">
+        <p>Quebrada FC © 2026</p>
+        <p>Todos os direitos reservados. Alex Sales ®️</p>
+    </footer>
 </body>
 </html>
