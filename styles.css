@@ -153,35 +153,47 @@ display: block;
 margin-top: 15px;
 }
 
+/* Campos */
 input,
-select{
-width: 100%;
-
-padding: 12px;
-
-margin-top: 5px;
-
-border: 1px solid #ccc;
-
-border-radius: 6px;
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-button{
-width: 100%;
+input:focus,
+select:focus {
+    border-color: #0a8202;
+    box-shadow: 0 0 6px #0a82024d;
+}
 
-margin-top: 25px;
+/* Botão */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    background: #0a8202;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
 
-padding: 15px;
+button:hover {
+    background: #086902;
+    transform: translateY(-2px);
+}
 
-background: #0a8202;
-
-color: white;
-
-border: none;
-
-font-size: 18px;
-
-border-radius: 6px;
+button:active {
+    transform: translateY(0);
 }
 
 button:hover{
